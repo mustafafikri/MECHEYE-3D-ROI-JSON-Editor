@@ -1,4 +1,4 @@
-# 3D ROI Editor
+# MECH-EYE 3D ROI Editor
 
 ## Overview
 
