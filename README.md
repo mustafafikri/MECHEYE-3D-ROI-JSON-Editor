@@ -2,7 +2,7 @@
 
 ## Overview
 
-3D ROI Editor is a desktop application developed with PyQt6 for managing and editing 3D Region of Interest (ROI) configurations stored in JSON files.
+Mech-Eye 3D ROI Editor is a PyQt6-based desktop application designed for configuring and managing ROI (Region of Interest) parameters used in Mech-Eye 3D vision systems. The tool provides an easy-to-use interface for editing ROI JSON files, synchronizing data with Excel and PLC systems, managing part dimensions, and automating ROI position updates in industrial robotics environments.
 
 The application is designed for industrial automation environments where robot vision systems, PLCs, and part dimension databases must work together. It allows users to load ROI configurations, modify ROI parameters, synchronize data with Excel files, and automatically update ROI positions from PLC-generated data.
 
