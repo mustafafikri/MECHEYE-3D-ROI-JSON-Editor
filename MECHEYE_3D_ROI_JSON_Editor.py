@@ -279,7 +279,7 @@ class RoiEditor(QWidget):
                     self.btn_open_excel_2.setEnabled(True)
                     self.toggle_switch.setEnabled(False)
             except Exception as e:
-                QMessageBox.critical(self, "Hata", f"Dosya açılamadı:\n{str(e)}")
+                QMessageBox.critical(self, "Error", f"File could not be open:\n{str(e)}")
 
     def load_excel_file(self):
         file_path, _ = QFileDialog.getOpenFileName(self, "Select PART Excel File", "", "Excel Files (*.xlsx *.xls)")
@@ -619,7 +619,7 @@ class RoiEditor(QWidget):
             QMessageBox.information(self, "Information", "Part added and saved.")
             dialog.accept()
         except Exception as e:
-            QMessageBox.critical(self, "Hata", f"Kaydetme hatası:\n{str(e)}")
+            QMessageBox.critical(self, "Error", f"Could not be save:\n{str(e)}")
 
     def next_changes(self):
         # ROI kamera koordinatları center pose Y değerini al
